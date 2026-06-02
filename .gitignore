@@ -1,0 +1,30 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Notebook/checkpoint artifacts
+.ipynb_checkpoints/
+
+# Logs and runtime artifacts
+*.log
+
+# Experiment outputs (generated)
+cps_experiment/cps_models/
+cps_experiment/cps_results/
+cps_experiment/cps_figures/
+cps_experiment/ablation_results/
+cps_experiment/paper_data/
+cps_experiment/paper_figures/
+
+# Trained checkpoints
+unlearning_checkpoints/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
